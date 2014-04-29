@@ -69,3 +69,23 @@ Week | Dates | Textbook Readings | Exercises/Assns/Tests
 **Handling suspected violations:** As an instructor, I take pride in helping my students succeed. By the same token, I do not want students to get the same credential by cheating as my other students get by hard work.
 
 If I suspect a violation may have occurred, I will first discuss it privately with the student(s) involved. If I still believe a violation has occurred, I will follow the procedures described in the [UGA Academic Honesty Policy](http://ovpi.uga.edu/academic-honesty/academic-honesty-policy). These procedures provide due process and protect your rights as a student. Note, however, that penalties are severe and include getting an F in the course or even being expelled from UGA.
+
+##My Grades
+
+###Tests
+Grade Item | Points | Weight Achieved |	Grade | Feedback
+---------- | ------:| ---------------:| -----:| --------
+Tests | | 40 / 40
+In-class Test 1 | 104 / 100 | 20.8 / 20 | A
+In-class Test 2 | 112 / 100 | 22.4 / 20 | A
+Final Exam | - / 100 | - / 20 | - | EXEMPT
+	 
+
+###Programming Assignments
+Grade Item | Points | Weight Achieved |	Grade | Feedback
+---------- | ------:| ---------------:| -----:| --------
+Programming Assignments | | 40 / 40
+Assignment 1 (Pizza Protocol) | 115 / 100 | 15.33 / 13.33 | A
+Assignment 2 (Reliable Transport) | 95 / 100 | 12.67 / 13.33 | A
+Assignment 3 (Distance-Vector Routing) | 100 / 100 | 13.33 / 13.33 | A
+	 
