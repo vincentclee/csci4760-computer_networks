@@ -6,9 +6,9 @@ Version 3
 
 **Textbook:** Computer Networks: A Top-Down Approach by Kurose and Ross; 5th or 6th edition
 
-**Instructor:** [Dr. Dan Everett](drdan@uga.edu). Office Hours in room 545 Boyd: Mon 12:20 – 2:20, WF 10:10 – 12:00, other times by appointment
+**Instructor:** [Dr. Dan Everett](http://cobweb.cs.uga.edu/~dme/) drdan@uga.edu. Office Hours in room 545 Boyd: Mon 12:20 – 2:20, WF 10:10 – 12:00, other times by appointment
 
-**TA:** [Sammit Desai](desai@cs.uga.edu), Office Hours: TR 12:30 – 3:15 PM, W 3:15 – 5:00 PM
+**TA:** Sammit Desai desai@cs.uga.edu, Office Hours: TR 12:30 – 3:15 PM, W 3:15 – 5:00 PM
 
 
 
