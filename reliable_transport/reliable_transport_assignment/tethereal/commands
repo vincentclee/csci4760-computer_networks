@@ -1,0 +1,5 @@
+tethereal -i lo -w localhost.pcap
+tethereal -i eth0 -w 2019.pcap
+tethereal -i eth0 -w 2020.pcap
+tethereal -i eth0 -w 2021.pcap
+

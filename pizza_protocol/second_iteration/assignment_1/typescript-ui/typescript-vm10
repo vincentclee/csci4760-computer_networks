@@ -1,0 +1,46 @@
+Script started on Tue 04 Feb 2014 10:09:38 PM EST
+[?1034hbash-4.1$ java pizza.endpoint.PizzaClient 172.17.152.28[K[K10
+
+Welcome, would you like to view our menu (Y/N)? y
+Connected to: /172.17.152.10 PizzaServer!
+
+||||||||||||
+||  Menu  ||
+||||||||||||
+Item type:specialty pie, Menu id:1, small:12.50, medium:15.50, large:18.50, description:Veggie Lovers'
+Item type:specialty pie, Menu id:2, small:13.50, medium:16.50, large:19.50, description:Buffalo Chicken
+Item type:specialty pie, Menu id:3, small:15.50, medium:20.50, large:25.50, description:Pizza Supreme
+Item type:slice, Menu id:4, description:Slice(Thin), price:2.50
+Item type:slice, Menu id:5, description:Slice(Thick), price:2.50
+Item type:slice, Menu id:6, description:Slice(Stuffed), price:3.50
+
+topping id:1, description:Pineapple, price:0.75
+topping id:2, description:Pepperoni, price:1.25
+topping id:3, description:Anchovies, price:1.25
+topping id:4, description:Bacon, price:1.00
+topping id:5, description:Onion, price:0.75
+topping id:6, description:Extra Cheese, price:0.75
+
+What item would you like, by Menu id (1-6)? 6
+Enter multiple toppings by id (1-6)? 2 5
+Quantity? 4
+
+Order another (Y/N)? y
+What item would you like, by Menu id (1-6)? 1
+Size (small(1), medium(2), large(3))? 1
+Quantity? 3
+
+Order another (Y/N)? n
+Connected to: /172.17.152.10 PizzaServer!
+
+|||||||||||||||||||||||||||||||
+||  Your Order Confirmation  ||
+|||||||||||||||||||||||||||||||
+Price:37.50, description:3 Veggie Lovers' SMALL
+Price:22.00, description:4 Slice(Stuffed) Pepperoni Onion
+
+Sales tax:4.16
+Order total amount:63.66
+bash-4.1$ exit
+
+Script done on Tue 04 Feb 2014 10:10:48 PM EST

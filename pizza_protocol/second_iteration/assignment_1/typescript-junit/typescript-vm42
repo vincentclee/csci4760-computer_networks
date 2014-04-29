@@ -1,0 +1,31 @@
+Script started on Mon 03 Feb 2014 11:28:06 PM EST
+[?1034hbash-4.1$ ant test1
+Buildfile: build.xml
+
+test1:
+    [junit] Testsuite: pizza.endpoint.PizzaClientTest
+    [junit] Tests run: 4, Failures: 0, Errors: 0, Time elapsed: 0.12 sec
+    [junit] ------------- Standard Output ---------------
+    [junit] Connecting to: /172.17.152.42
+    [junit] Connecting to: /172.17.152.42
+    [junit] Connecting to: /172.17.152.42
+    [junit] Connecting to: /172.17.152.42
+    [junit] ------------- ---------------- ---------------
+    [junit] 
+    [junit] Testcase: testSliceOrder took 0.032 sec
+    [junit] Testcase: testGetMenu took 0.047 sec
+    [junit] Testcase: testCombinedOrder took 0.01 sec
+    [junit] Testcase: testSingleSpecialtyPieOrder took 0.009 sec
+    [junit] Testsuite: pizza.endpoint.PizzaServerTest
+    [junit] Tests run: 4, Failures: 0, Errors: 0, Time elapsed: 0.049 sec
+    [junit] 
+    [junit] Testcase: testSliceOrder took 0.016 sec
+    [junit] Testcase: testGetMenu took 0 sec
+    [junit] Testcase: testCombinedOrder took 0.004 sec
+    [junit] Testcase: testSingleSpecialtyPieOrder took 0.002 sec
+
+BUILD SUCCESSFUL
+Total time: 0 seconds
+bash-4.1$ exit
+
+Script done on Mon 03 Feb 2014 11:28:13 PM EST

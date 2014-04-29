@@ -1,0 +1,25 @@
+Vincent Lee
+CSCI 4760
+
+Distance-Vector Routing Exercise
+================================
+
+To build & run exercise topology:
+cd ./routing
+ant
+
+To run program with topology file as command line argument:
+cd ./routing
+ant run -Darg0=[filename]
+
+example run with file: topology.txt
+ant run -Darg0=topology.txt
+
+To clean project:
+cd ./routing
+ant clean
+
+NOTE:
+filename must be in the ./routing folder
+else full path of file must be provided
+

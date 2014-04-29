@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project basedir="." default="runner" name="routing">
+	<property name="junit.output.dir" value="junit"/>
+		<path id="JUnit 4.libraryclasspath">
+			<pathelement location="lib/junit-4.11.jar"/>
+			<pathelement location="lib/hamcrest-core-1.3.jar"/>
+    	</path>
+		<path id="routing.classpath">
+			<pathelement location="bin"/>
+			<path refid="JUnit 4.libraryclasspath"/>
+		</path>
+	<target name="init">
+		<mkdir dir="bin"/>
+		<copy includeemptydirs="false" todir="bin">
+			<fileset dir="src">
+				<exclude name="**/*.launch"/>
+				<exclude name="**/*.java"/>
+			</fileset>
+		</copy>
+	</target>
+	<target name="clean">
+		<delete dir="bin"/>
+	</target>
+	<target depends="init" name="build">
+		<javac srcdir="src" destdir="bin" includeAntRuntime="no" listfiles="no">
+			<classpath refid="routing.classpath"/>
+		</javac>
+	</target>
+	<target depends="build" name="test">
+		<mkdir dir="${junit.output.dir}"/>
+		<junit fork="yes" printsummary="withOutAndErr">
+			<formatter type="xml"/>
+			<test name="routing.dv.tests.DVSimulatorTest" todir="${junit.output.dir}"/>
+			<test name="routing.dv.tests.DVSimulatorTestC4F4_3" todir="${junit.output.dir}"/>
+			<test name="routing.dv.tests.DVSimulatorTestC4P26" todir="${junit.output.dir}"/>
+			<test name="routing.dv.tests.DVSimulatorTestC4P29" todir="${junit.output.dir}"/>
+			<test name="routing.dv.tests.DVSimulatorTestDisconnected" todir="${junit.output.dir}"/>
+			<test name="routing.dv.tests.RouteInputStreamTest" todir="${junit.output.dir}"/>
+			<classpath refid="routing.classpath"/>
+		</junit>
+	</target>
+	<target depends="test" name="runner">
+		<java classname="routing.dv.DVSimulator" failonerror="true" fork="yes">
+			<arg line="topology"/>
+			<classpath refid="routing.classpath"/>
+        </java>
+	</target>
+	<target depends="build" name="run">
+		<java classname="routing.dv.DVSimulator" failonerror="true" fork="yes">
+			<arg value="${arg0}"/>
+			<classpath refid="routing.classpath"/>
+        </java>
+	</target>
+	<target name="junitreport">
+		<junitreport todir="${junit.output.dir}">
+			<fileset dir="${junit.output.dir}">
+				<include name="TEST-*.xml"/>
+			</fileset>
+			<report format="frames" todir="${junit.output.dir}"/>
+		</junitreport>
+	</target>
+</project>

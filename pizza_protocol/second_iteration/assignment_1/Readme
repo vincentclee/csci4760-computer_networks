@@ -1,0 +1,35 @@
+Vincent Lee
+
+VM28
+
+Server should already be started.
+To start server & run in background:
+cd /home/student/Assn1/classes
+java pizza.endpoint.PizzaServer &
+
+
+To run pizza.message test cases:
+cd /home/student/Assn1
+ant
+
+To run pizza.endpoint test cases:
+cd /home/student/Assn1
+ant test1
+
+Typescript files jUnit Client & Server tests:
+/home/student/Assn1/typescript-junit/typescript-localhost
+/home/student/Assn1/typescript-junit/typescript-vm28
+/home/student/Assn1/typescript-junit/typescript-vm42
+/home/student/Assn1/typescript-junit/typescript-vm10
+
+Typescript files using User Interface:
+/home/student/Assn1/typescript-ui/typescript-localhost
+/home/student/Assn1/typescript-ui/typescript-vm42
+/home/student/Assn1/typescript-ui/typescript-vm10
+
+
+
+NOTE:
+Dr. Dan's server was not working.
+vm42 had errors in formatting
+

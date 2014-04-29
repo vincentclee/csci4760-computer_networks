@@ -1,0 +1,18 @@
+Red Hat Enterprise Linux: Beyond the World Records
+Posted on March 5, 2014 by Yan Fisher and Andrew Bond	
+
+In a recent post, we reviewed the 10 world record results set by Red Hat Enterprise Linux on the Intel Xeon processor E7 v2 family.  Besides showcasing the extreme capabilities of Red Hat Enterprise Linux, these performance achievements tell another compelling story - Red Hat Enterprise Linux has become an exceedingly popular choice when it comes to tough workloads.
+
+For example, consider the share of Red Hat Enterprise Linux versus other operating systems used to produce these records. Out of 20 world record benchmark results (22 total submissions, 3 results were tied) posted by eight different OEM partners at the Intel Xeon processor E7 v2 family announcement, Red Hat Enterprise Linux was used in 12. Seventy-five percent of the hardware vendors taking part in this process chose to publish their world record benchmarks on the new family of processors using Red Hat Enterprise Linux. The chart below shows the significance of this adoption.
+
+The numbers back it up: Red Hat Enterprise Linux is proving to be a popular choice for performance-demanding tests. So much so that it holds more than double the number of world record benchmarks for the Xeon processor E7 v2 family than the next closest operating system - Microsoft Windows. From an open source perspective, SUSE Linux was deployed four times less frequently by OEMs working on producing this set of results.
+
+Not only does Red Hat Enterprise Linux figure prominently across several benchmarks, it is also dominating new benchmarks that were introduced less than a year ago. When you look beyond just a numerical superiority, the use of Red Hat Enterprise Linux in these benchmarks showcases the breadth of acceptance and the trust that industry and partners place in Red Hat when it comes to their most performance-sensitive workloads.
+
+As the ultimate proof, consider the popular virtualization benchmark SPECvirt_sc, which characterizes the behavior of multiple software applications running in virtual server instances. From the below chart, we can see that as this benchmark is transitioning from the previous version released back in 2010 to the latest one, Red Hat Enterprise Linux continues to be used in over three-quarters of all published results.
+
+The above numbers and charts send a powerful message - OEMs and enterprises rely on Red Hat Enterprise Linux to deliver the performance that they need while running their most critical workloads on a stable and reliable platform that they trust.
+
+While IT challenges may vary from organization to organization and change over time, the demand placed on infrastructure is only increasing. Enterprises and customers seek an operating system that can handle massive workloads and thrive in this ever changing environment - exactly what Red Hat Enterprise Linux has shown that it can do.
+
+All results as of February 20th 2014. SPEC and the benchmark names SPECcpu, SPECjbb, SPEComp and SPECvirt_sc are registered trademarks of the Standard Performance Evaluation Corporation. For more information about SPEC and its benchmarks see: www.spec.org

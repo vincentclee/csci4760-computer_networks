@@ -1,0 +1,46 @@
+Script started on Tue 04 Feb 2014 10:03:24 PM EST
+[?1034hbash-4.1$ java pizza .[K[K.endpoint.PizzaClient locao[Klhost
+
+Welcome, would you like to view our menu (Y/N)? y
+Connected to: localhost/127.0.0.1 PizzaServer!
+
+||||||||||||
+||  Menu  ||
+||||||||||||
+Item type:specialty pie, Menu id:1, small:12.50, medium:15.50, large:18.50, description:Veggie Lovers' pizza with green peppers, black olives, onions, mushrooms, and mozzarella cheese
+Item type:specialty pie, Menu id:2, small:13.50, medium:16.50, large:19.50, description:Buffalo Chicken pizza with onions, mushrooms, and mozzarella cheese
+Item type:specialty pie, Menu id:3, small:15.50, medium:20.50, large:25.50, description:Pizza Supreme -- this pie has it all! Beef and chorizo sausage, yak meat, tofu, green peppers, olives, and mozzarella cheese!
+Item type:slice, Menu id:4, description:Slice (Thin crust), price:2.50
+Item type:slice, Menu id:5, description:Slice (Thick crust), price:2.50
+Item type:slice, Menu id:6, description:Slice (Stuffed crust), price:3.50
+
+topping id:1, description:Pineapple, price:0.75
+topping id:2, description:Pepperoni, price:1.25
+topping id:3, description:Anchovies, price:1.25
+topping id:4, description:Bacon, price:1.00
+topping id:5, description:Onion, price:0.75
+topping id:6, description:Extra Cheese, price:0.75
+
+What item would you like, by Menu id (1-6)? 1
+Size (small(1), medium(2), large(3))? 2
+Quantity? 3
+
+Order another (Y/N)? y
+What item would you like, by Menu id (1-6)? 4
+Enter multiple toppings by id (1-6)? 3 2 4
+Quantity? 3
+
+Order another (Y/N)? n
+Connected to: localhost/127.0.0.1 PizzaServer!
+
+|||||||||||||||||||||||||||||||
+||  Your Order Confirmation  ||
+|||||||||||||||||||||||||||||||
+Price:46.50, description:3 Veggie Lovers' MEDIUM
+Price:18.00, description:3 Slice (Thin crust) Anchovies Pepperoni Bacon
+
+Sales tax:4.52
+Order total amount:69.02
+bash-4.1$ exit
+
+Script done on Tue 04 Feb 2014 10:04:14 PM EST

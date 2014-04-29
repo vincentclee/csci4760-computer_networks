@@ -1,0 +1,30 @@
+Vincent Lee
+
+Instructions
+------------
+To compile and run JUnit test
+ant
+
+Communicate with self on local VM
+make localhost
+
+Communicate with self via reliable relayer
+make 2019
+
+Communicate with self via semi-reliable relayer
+make 2020
+
+Communicate with self vial unreliable relayer
+make 2021
+
+
+Additional Details
+------------------
+The file to be sent is ~/file1
+The output from Makefile runs is in ~/output with same names as target, ie: localhost, 2019, 2020, 2012
+Wireshark capture files are in ~/tethereal with the same name as targets
+The ~/log directory stores access and error logs.
+
+Note: Iteration 5: communicate via the unreliable relayer with two of your classmakes. This was not completed because no Relayers were available. Also, strict CS academic dishonesty policies state students are not allowed to work together. 
+
+

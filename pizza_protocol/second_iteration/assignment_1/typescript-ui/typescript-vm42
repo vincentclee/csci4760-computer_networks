@@ -1,0 +1,46 @@
+Script started on Tue 04 Feb 2014 10:12:36 PM EST
+[?1034hbash-4.1$ java pizza.endpoint.PizzaClient 172.17.152.10[4Plocalhost172.17.152.10[K[K42
+
+Welcome, would you like to view our menu (Y/N)? y
+Connected to: /172.17.152.42 PizzaServer!
+
+||||||||||||
+||  Menu  ||
+||||||||||||
+Item type:specialty pie, Menu id:1, small:12.50, medium:15.50, large:18.50, description:Veggie Lovers' pizza with green peppers, black olives, onions, mushrooms, and mozzarella cheese
+Item type:specialty pie, Menu id:2, small:13.50, medium:16.50, large:19.50, description:Buffalo Chicken pizza with onions, mushrooms, and mozzarella cheese
+Item type:specialty pie, Menu id:3, small:15.50, medium:20.50, large:25.50, description:Pizza Supreme -- this pie has it all! Beef and chorizo sausage, yak meat, tofu, green peppers, olives, and mozzarella cheese!
+Item type:slice, Menu id:4, description:Slice(Thin crust), price:2.50
+Item type:slice, Menu id:5, description:Slice(Thick crust), price:2.50
+Item type:slice, Menu id:6, description:Slice(Stuffed crust), price:3.50
+
+topping id:1, description:Pineapple, price:0.75
+topping id:2, description:Pepperoni, price:1.25
+topping id:3, description:Anchovies, price:1.25
+topping id:4, description:Bacon, price:1.00
+topping id:5, description:Onion, price:0.75
+topping id:6, description:Extra Cheese, price:0.75
+
+What item would you like, by Menu id (1-6)? 2
+Size (small(1), medium(2), large(3))? 3
+Quantity? 1
+
+Order another (Y/N)? y
+What item would you like, by Menu id (1-6)? 3
+Size (small(1), medium(2), large(3))? 2
+Quantity? 1
+
+Order another (Y/N)? n
+Connected to: /172.17.152.42 PizzaServer!
+
+|||||||||||||||||||||||||||||||
+||  Your Order Confirmation  ||
+|||||||||||||||||||||||||||||||
+Price:19.50, description:1 Buffalo Chicken LARGE
+Price:20.50, description:1 Pizza Supreme MEDIUM
+
+Sales tax:2.80
+Order total amount:42.80
+bash-4.1$ exit
+
+Script done on Tue 04 Feb 2014 10:13:51 PM EST
