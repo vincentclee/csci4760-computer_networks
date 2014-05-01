@@ -76,8 +76,8 @@ If I suspect a violation may have occurred, I will first discuss it privately wi
 Grade Item | Points | Weight Achieved |	Grade | Feedback
 ---------- | ------:| ---------------:| -----:| --------
 Tests | | 40 / 40
-In-class Test 1 | 104 / 100 | 20.8 / 20 | A
-In-class Test 2 | 112 / 100 | 22.4 / 20 | A
+In-class Test 1 | 104 / 100 | 20.8 / 20 | A+
+In-class Test 2 | 112 / 100 | 22.4 / 20 | A+
 Final Exam | - / 100 | - / 20 | - | EXEMPT
 	 
 
@@ -85,7 +85,7 @@ Final Exam | - / 100 | - / 20 | - | EXEMPT
 Grade Item | Points | Weight Achieved |	Grade | Feedback
 ---------- | ------:| ---------------:| -----:| --------
 Programming Assignments | | 40 / 40
-Assignment 1 (Pizza Protocol) | 115 / 100 | 15.33 / 13.33 | A
+Assignment 1 (Pizza Protocol) | 115 / 100 | 15.33 / 13.33 | A+
 Assignment 2 (Reliable Transport) | 95 / 100 | 12.67 / 13.33 | A
 Assignment 3 (Distance-Vector Routing) | 100 / 100 | 13.33 / 13.33 | A
 	 
